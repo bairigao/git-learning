@@ -1,8 +1,20 @@
 # git-learning
 Self study on git
-https://learngitbranching.js.org/
+//https://learngitbranching.js.org/
 
-git commit                  #### commit your git
+//git commit                  #### commit your git
 
-git branch bugFix           #### create new branch
-git checkout bugFix; git commit      #### commit with branch 
+//git branch bugFix           #### create new branch
+//git checkout bugFix; git commit      #### commit with branch 
+
+//git checkout c3           #### seperate HEAD from current branch to c3
+//git branch -f main c5                #### move main to c5 version. can be any version.   -f for FORCING
+//git checkout HEAD^           #### move HEAD one step up
+//git checkout HEAD~5         #### move HEAD 5 step up, number can be changed
+//git branch -f bugFix HEAD~5   #### move bugFix and HEAD 5 step up
+
+//git reset HEAD~1           #### move the current branch one step backwards as the older commit. like from c2 to c1. Works on local machine(your own PC). 
+//git revert HEAD            #### reverse the current branch to backwards but it not like c2 to c1, it actually commit to a c2* that you can share with others. REMEMBER DON'T ADD ~ OR ^ IF JUST WANT ONE STEP BACK.
+
+//git cherry-pick c2 c4     #### just copy branch c2 c4 to the current branch and created c2* c4*
+//git rebase -i HEAD~3      #### same like cherry-pick but have more functions such like you can reorder commit, remove specific commit and check commit. example: HEAD~3 C2 C3 C4 to C4 C2(C3 had been removed) .
