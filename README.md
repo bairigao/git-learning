@@ -41,7 +41,7 @@ tag c2 with a name v2
 #  git describe <ref>
 
 Where <ref> is anything git can resolve into a commit. If you don't specify a ref, git just uses where you're checked out right now (HEAD).
-The output of the command looks like: "(<tag>_<numCommits>_g<hash>)"
+The output of the command looks like: "tag_numCommits_g hash"
 
 
 
