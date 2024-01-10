@@ -2,14 +2,14 @@
 Self study on git
 https://learngitbranching.js.org/
 
-#  git commit           commit your git
+#  git commit     >>      commit your git
 
-#  git branch bugFix                    create new branch
-#  git checkout bugFix; git commit      commit with branch 
+#  git branch bugFix       >>             create new branch
+#  git checkout bugFix; git commit  >>    commit with branch 
 
-#  git checkout c3              seperate HEAD from current branch to c3
-#  git branch -f main c5        move main to c5 version. can be any version.   -f for FORCING
-#  git checkout HEAD^           move HEAD one step up
+#  git checkout c3       >>       seperate HEAD from current branch to c3
+#  git branch -f main c5   >>     move main to c5 version. can be any version.   -f for FORCING
+#  git checkout HEAD^      >>     move HEAD one step up
 #  git checkout HEAD~5          move HEAD 5 step up, number can be changed
 #  git branch -f bugFix HEAD~5    move bugFix and HEAD 5 step up
 
