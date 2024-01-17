@@ -72,3 +72,4 @@ updates where our remote branches point
 create a new branch foo and use it to track orgin/main instead of using main to track.
  # git branch -u o/main foo
  set foo to track o/main(if there is a branch called foo). if foo already checkout can do with git branch checkout -u o/main
+# git push origin <source>:<destination>
